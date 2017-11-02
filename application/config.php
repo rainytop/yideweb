@@ -148,6 +148,7 @@ return [
         '__CSS__' => __ROOT__ . '/static/css',
         '__JS__' => __ROOT__.'/static/js',
         '__FONT__' => __ROOT__.'/static/fonts',
+        '__ROOT__' => __ROOT__.'/index.php',
     ],
     // 默认跳转页面对应的模板文件
     'dispatch_success_tmpl' => THINK_PATH . 'tpl' . DS . 'dispatch_jump.tpl',
