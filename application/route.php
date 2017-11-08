@@ -25,4 +25,6 @@ return [
     'single/[:name]'=>'index/single',
     'term/[:name]'=>'index/term',
     'privacy/[:name]'=>'index/privacy',
+    'product/[:name]'=>'index/product',
+    'm/[:name]+'=>'index/:name]',
 ];

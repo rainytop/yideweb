@@ -55,6 +55,22 @@ class Index extends baseController
         return $this->fetch();
     }
 
+    public function product($productName=""){
+        switch ($productName){
+            case "changyou":
+                return $this->fetch("product-changyou");
+                break;
+            case "weishu":
+                return $this->fetch("product-weishu");
+                break;
+            case "zhiminshu":
+                return $this->fetch("product-zhiminshu");
+                break;
+            default:
+                break;
+        }
+}
+
     public function hello($name = 'thinkphp')
     {
         $this->assign('name', $name);
