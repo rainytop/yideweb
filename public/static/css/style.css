@@ -266,6 +266,23 @@ span.menu{
 	color:#999;
 }
 /*-- //banner-bottom --*/
+/*----其他添加-------*/
+.footer-grid-right img {
+	padding: .5em;
+	border: 1px dotted #FFF;
+}
+
+.footer-grid-right{
+	margin: 0px 5px;
+	float:right;
+	width:30%;
+}
+.footerAliquam{
+	float:left !important;
+	width:30% !important;
+}
+/*-- //其他添加 --*/
+
 /*-- welcome --*/
 .welcome,.news,.about,.contact,.typo,.gallery,.news,.single{
 	padding:5em 0;
@@ -293,7 +310,7 @@ p.et{
 }
 .welcome-grid-left{
 	float:left;
-	width:65%;
+	width:25%;
 	text-align:right;
 	margin: 2em 0 0;
 }
@@ -316,15 +333,15 @@ p.et{
 }
 .welcome-grid-right{
 	float:right;
-	width:30%;
+	width:70%;
 }
 .aliquam{
 	float:left !important;
-	width:30% !important;
+	width:70% !important;
 }
 .non{
 	float:right !important;
-	width:65% !important;
+	width:25% !important;
 	text-align:left !important;
 }
 .welcome-grids:nth-child(2){
